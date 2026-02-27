@@ -1,61 +1,97 @@
-# 💼 Senior Backend Engineer | .NET Specialist | Cloud Architect
+💼 Principal Backend Engineer | Financial Systems Architect | .NET
 
-**22+ years transforming complex business challenges into high-performance systems**  
-Specializing in fiscal/financial systems modernization and scalable cloud-native solutions
+22+ years designing and evolving enterprise-grade financial platforms across multi-country environments
 
-## 🚀 What I'm Building
+Specialized in high-integrity transaction systems, modular architecture, and compliance-driven backend engineering.
 
-**Microservices E-commerce Platform**
+🏗 Architectural Focus
 
-- Java Spring Boot & Go microservices architecture
-- Docker containerization & orchestration
-- Event-driven design with message queues
-- Cloud-native deployment ready
+I operate at the intersection of architecture and execution — defining long-term platform strategy while remaining hands-on in critical backend components.
 
-## 🛠 Core Technical Arsenal
+Core areas of expertise:
 
-**Backend Excellence**  
-`C#` `.NET 7+` `ASP.NET Core` `Web API` `Entity Framework` `Java` `Spring Boot` `Go`
+Enterprise Backend Architecture (.NET ecosystem)
 
-**API Ecosystem**  
-`RESTful APIs` `GraphQL` `OpenAPI/Swagger` `gRPC` `Microservices`
+Modular Monolith & Distributed Systems Design
 
-**Cloud & DevOps**  
-`AWS` `Lambda` `API Gateway` `RDS` `Docker` `Kubernetes` `CI/CD` `Terraform`
+High-Integrity Transaction Processing
 
-**Data Mastery**  
-`PostgreSQL` `SQL Server` `MongoDB` `Oracle` `Redis` `Message Queues`
+Regulatory & Compliance-Driven Platforms
 
-## 📈 Measurable Impact
+Performance Optimization in Mission-Critical Systems
 
-**At Oracle**
+Cross-Country Financial Systems Integration
 
-- Modernized fiscal middleware for LATAM markets
-- **40% faster** processing throughput
-- **60% reduction** in critical bugs
-- Cloud migration with **cost-optimized AWS architecture**
+🚀 What I'm Building
 
-## 🎯 Specializations
+Event-Driven E-commerce Platform (Architecture Lab)
 
-- **Legacy System Modernization** (.NET 6+ migrations)
-- **Fiscal/Financial Systems** (Regulatory compliance expertise)
-- **High-Performance APIs** (Scalable, secure, documented)
-- **Cloud-Native Transformation** (AWS solutions architecture)
-- **Technical Leadership** (Distributed teams, mentoring, best practices)
+A modular, distributed architecture experiment focused on:
 
-## 🌟 Current Focus
+Go and Java microservices
 
-- Building event-driven microservices architectures
-- Containerization and orchestration strategies
-- Performance optimization in distributed systems
-- Fintech and fiscal technology innovations
+Event-driven communication patterns
 
-## 📫 Let's Connect
+Containerized environments with Docker
 
-I'm always interested in discussing:
+Transactional consistency strategies
 
-- Complex backend challenges
-- System architecture design
-- Legacy modernization strategies
-- Performance optimization opportunities
-- Technical leadership roles
+Scalable API-first design
+
+This project serves as an architectural sandbox for exploring distributed systems trade-offs and resilience strategies.
+
+🛠 Technical Stack
+Backend & Architecture
+
+C# .NET ASP.NET Core Web APIs Entity Framework
+Java Spring Boot Go
+
+Systems & Integration
+
+REST gRPC OpenAPI Microservices Message Queues
+
+Data & Persistence
+
+PostgreSQL SQL Server MongoDB Redis
+
+Infrastructure & Containers
+
+Docker Linux CI/CD
+
+📈 Professional Impact
+
+At Oracle:
+
+Lead architectural evolution of fiscal middleware serving 22 countries across LATAM, EMEA, and Asia
+
+Improved transaction performance by 50%
+
+Reduced production incidents by 40% in compliance-critical environments
+
+Defined engineering standards and long-term platform strategy while remaining fully hands-on
+
+🎯 Core Specializations
+
+Financial Systems Architecture
+
+Compliance-Critical Platforms
+
+Modular Monolith Design
+
+API Standardization & Governance
+
+Legacy Modernization Strategies
+
+Technical Leadership & Engineering Standards
+
+📫 Open to Conversations About
+
+Enterprise backend architecture
+
+Financial systems modernization
+
+Distributed systems design
+
+Performance engineering
+
+Principal / Staff-level technical challenges
