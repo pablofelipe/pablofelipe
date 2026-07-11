@@ -9,8 +9,10 @@ fiscal middleware platform running in 25 countries across LATAM, EMEA, and
 Asia — 10+ active tax regimes in production, where a classification error
 triggers a regulatory penalty, not a bug report.
 
-The two repositories below are where I demonstrate the same engineering
-discipline outside Oracle, on problems I chose myself.
+The repositories below are where I demonstrate the same engineering
+discipline outside Oracle, on problems I chose myself. The first two are
+the flagship projects; the third shows my primary production stack end
+to end.
 
 ## ncm-classifier-ai
 
@@ -52,6 +54,23 @@ service state, a race condition closed and verified under concurrent
 load. That log is the part of this repo worth reading first; current
 service status lives there too.
 
+## SmartCondo
+
+**[github.com/pablofelipe/SmartCondo](https://github.com/pablofelipe/SmartCondo)**
+
+A full-stack condominium administration platform — ASP.NET Core 8 on the
+backend (REST + GraphQL via HotChocolate), React 19 + TypeScript PWA on
+the frontend, PostgreSQL behind EF Core. Where the two projects above
+explore AI and distributed systems, this one shows my primary production
+stack end to end: JWT authentication on ASP.NET Identity with a
+hierarchical permission model (system administrator → condominium
+administrator → resident/staff) enforced per endpoint; GraphQL
+deliberately confined to a single bounded domain — vehicles — where
+flexible filtering justified a second protocol; configuration fully
+environment-driven, so the repository ships no credentials by
+construction; and the same application hostable as a container or as an
+AWS Lambda behind API Gateway.
+
 ## Production Context (Oracle)
 
 - Technical lead and architect for a fiscal middleware platform serving 25
@@ -67,7 +86,7 @@ service status lives there too.
 ## Stack
 
 **Primary:** C#/.NET, Python
-**Also production-proven:** Java, Go, Node.js/TypeScript
+**Also production-proven:** Java, Go, Node.js/TypeScript, GraphQL
 **AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB,
 Claude API, Gemini API
 **Data & messaging:** PostgreSQL, SQL Server, MongoDB, RabbitMQ
