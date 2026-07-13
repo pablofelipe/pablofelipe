@@ -1,12 +1,12 @@
 # Pablo Felipe
 
-**Principal / Staff Software Engineer · Financial Systems Architect**
+**Principal / Staff Backend Engineer · Financial Systems Architect**
 São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pablofelipe@gmail.com
 
 22+ years building compliance-critical, high-throughput financial and fiscal
-systems. Currently Principal Software Engineer at Oracle, architecting a
-fiscal middleware platform running in 25 countries across LATAM, EMEA, and
-Asia — 10+ active tax regimes in production, where a classification error
+systems. Currently Principal Application Software Engineer at Oracle,
+architecting a fiscal middleware platform running in 25 countries across
+LATAM, EMEA, and Asia — 10+ active tax regimes in production, where a classification error
 triggers a regulatory penalty, not a bug report.
 
 The repositories below are where I demonstrate the same engineering
@@ -27,8 +27,8 @@ records enrichment strategies that were tried, measured, and rejected on
 evidence, closing lines of investigation once the data was decisive
 rather than letting them drift on sunk cost. Retrieval and rerank sit
 behind swappable adapters; a deterministic verification gate (not a
-second LLM call) checks structural validity and routes low-confidence
-output to escalation.
+second LLM call), implemented and unit-tested, is designed to check
+structural validity and route low-confidence output to escalation.
 
 This is the project to read if the question is whether I treat AI as an
 engineering discipline or a demo. Current status and the full decision
