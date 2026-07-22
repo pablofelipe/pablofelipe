@@ -68,14 +68,21 @@ administrator → resident/staff) enforced per endpoint; GraphQL
 deliberately confined to a single bounded domain — vehicles — where
 flexible filtering justified a second protocol; configuration fully
 environment-driven, so the repository ships no credentials by
-construction; and the same application hostable as a container or as an
-AWS Lambda behind API Gateway.
+construction. Container-first and cloud-agnostic: the same Docker image
+deploys unmodified to Azure Container Apps or AWS ECS/Fargate through two
+independent Terraform modules, with real-time notifications over native
+WebSockets by default.
 
 ## Production Context (Oracle)
 
 - Technical lead and architect for a fiscal middleware platform serving 25
   countries: Brazil (NF-e, NFC-e, SAT), Mexico, Argentina, and 20+
   additional jurisdictions across EMEA and Asia
+- Solo-architected the redesign of an 8-year-old .NET Framework POS
+  extension into an embedded scripting architecture (JavaScript on V8) —
+  a country-agnostic middleware with a per-country connector pattern —
+  taken to full production rollout in 3 months while remaining fully
+  hands-on
 - API standardization and modular decomposition: 50% faster transaction
   processing, 40% fewer critical production incidents
 - Built a Jenkins CI/CD pipeline from scratch, now used by the entire LATAM
@@ -86,11 +93,15 @@ AWS Lambda behind API Gateway.
 ## Stack
 
 **Primary:** C#/.NET, Python
-**Also production-proven:** Java, Go, Node.js/TypeScript, GraphQL
+**Also production-proven:** Java, Go, Node.js/TypeScript, C++
+**APIs:** REST, GraphQL, OpenAPI/Swagger, WebSockets
 **AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB,
-Claude API, Gemini API
+Gemini API, provider-agnostic LLM integration
 **Data & messaging:** PostgreSQL, SQL Server, MongoDB, RabbitMQ
-**Infra:** Docker, GitHub Actions, Jenkins, AWS (Lambda, RDS)
+**Infra:** Docker, Kubernetes (kind), Terraform (multi-cloud IaC), GitHub
+Actions, Jenkins, AWS (Lambda, RDS, ECS/Fargate), Azure Container Apps
+**Observability:** Prometheus/Grafana, OpenTelemetry (learning), agentic
+coding workflows (Claude Code)
 
 ## What I Think About
 
