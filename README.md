@@ -96,10 +96,12 @@ WebSockets by default.
 **Also production-proven:** Java, Go, Node.js/TypeScript, C++
 **APIs:** REST, GraphQL, OpenAPI/Swagger, WebSockets
 **AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB,
-Gemini API, provider-agnostic LLM integration
+Gemini API, multimodal (vision + text), provider-agnostic LLM integration
 **Data & messaging:** PostgreSQL, SQL Server, MongoDB, RabbitMQ
 **Infra:** Docker, Kubernetes (kind), Terraform (multi-cloud IaC), GitHub
 Actions, Jenkins, AWS (Lambda, RDS, ECS/Fargate), Azure Container Apps
+**Serverless / BaaS:** Firebase (Cloud Functions, Firestore, Auth, Cloud
+Messaging, Hosting)
 **Observability:** Prometheus/Grafana, OpenTelemetry (learning), agentic
 coding workflows (Claude Code)
 
