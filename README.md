@@ -6,8 +6,8 @@ São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pa
 22+ years building compliance-critical, high-throughput financial and fiscal
 systems. Currently Principal Application Software Engineer at Oracle,
 architecting a fiscal middleware platform running in 25 countries across
-LATAM, EMEA, and Asia — 10+ active tax regimes in production, where a classification error
-triggers a regulatory penalty, not a bug report.
+LATAM, EMEA, and Asia — 10+ active tax regimes in production, where an error in
+the tax calculation engine is a compliance failure, not a bug report.
 
 The repositories below are where I demonstrate the same engineering
 discipline outside Oracle, on problems I chose myself. The first two are
