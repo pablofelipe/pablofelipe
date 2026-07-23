@@ -6,8 +6,8 @@ São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pa
 22+ years building compliance-critical, high-throughput financial and fiscal
 systems. Currently Principal Application Software Engineer at Oracle,
 architecting a fiscal middleware platform running in 25 countries across
-LATAM, EMEA, and Asia — 10+ active tax regimes in production, where an error in
-the tax calculation engine is a compliance failure, not a bug report.
+LATAM, EMEA, and Asia, with 10+ active tax regimes in production, where an
+error in the tax calculation engine is a compliance failure, not a bug report.
 
 The repositories below are where I demonstrate the same engineering
 discipline outside Oracle, on problems I chose myself. The first two are
@@ -22,7 +22,7 @@ A RAG pipeline that classifies Brazilian products into 8-digit NCM fiscal
 codes, grounded on the official TIPI table. Built eval-first: every
 architectural change is gated by a labeled suite tracking accuracy,
 calibration, latency, and cost-per-classification against explicit
-budgets — including the changes that didn't work. The decision log
+budgets, including the changes that didn't work. The decision log
 records enrichment strategies that were tried, measured, and rejected on
 evidence, closing lines of investigation once the data was decisive
 rather than letting them drift on sunk cost. Retrieval and rerank sit
@@ -38,9 +38,9 @@ log are in the repo.
 
 **[github.com/pablofelipe/easydora](https://github.com/pablofelipe/easydora)**
 
-A polyglot, event-driven e-commerce system — Go, Spring Boot, and FastAPI,
-each used where it fits the workload, not for convenience. In active
-development. Every cross-service interaction flows through RabbitMQ topic
+A polyglot, event-driven e-commerce system built in Go, Spring Boot, and
+FastAPI, each used where it fits the workload, not for convenience. In
+active development. Every cross-service interaction flows through RabbitMQ topic
 exchanges; the Outbox Pattern guarantees an event is never silently lost
 between a database commit and its publish; event contracts are validated
 against versioned JSON Schemas so producer/consumer drift is caught
@@ -49,7 +49,7 @@ automatically instead of in production; CI runs in multiple phases (unit
 actual running processes).
 
 The decision log documents real bugs found by running the tests, not by
-inspection — schema-authority conflicts, healthchecks that lied about
+inspection: schema-authority conflicts, healthchecks that lied about
 service state, a race condition closed and verified under concurrent
 load. That log is the part of this repo worth reading first; current
 service status lives there too.
@@ -58,14 +58,14 @@ service status lives there too.
 
 **[github.com/pablofelipe/SmartCondo](https://github.com/pablofelipe/SmartCondo)**
 
-A full-stack condominium administration platform — ASP.NET Core 8 on the
-backend (REST + GraphQL via HotChocolate), React 19 + TypeScript PWA on
-the frontend, PostgreSQL behind EF Core. Where the two projects above
+A full-stack condominium administration platform, with ASP.NET Core 8 on
+the backend (REST + GraphQL via HotChocolate), React 19 + TypeScript PWA
+on the frontend, PostgreSQL behind EF Core. Where the two projects above
 explore AI and distributed systems, this one shows my primary production
 stack end to end: JWT authentication on ASP.NET Identity with a
 hierarchical permission model (system administrator → condominium
 administrator → resident/staff) enforced per endpoint; GraphQL
-deliberately confined to a single bounded domain — vehicles — where
+deliberately confined to a single bounded domain (vehicles), where
 flexible filtering justified a second protocol; configuration fully
 environment-driven, so the repository ships no credentials by
 construction. Container-first and cloud-agnostic: the same Docker image
@@ -79,10 +79,9 @@ WebSockets by default.
   countries: Brazil (NF-e, NFC-e, SAT), Mexico, Argentina, and 20+
   additional jurisdictions across EMEA and Asia
 - Solo-architected the redesign of an 8-year-old .NET Framework POS
-  extension into an embedded scripting architecture (JavaScript on V8) —
-  a country-agnostic middleware with a per-country connector pattern —
-  taken to full production rollout in 3 months while remaining fully
-  hands-on
+  extension into an embedded scripting architecture (JavaScript on V8), a
+  country-agnostic middleware with a per-country connector pattern, taken
+  to full production rollout in 3 months while remaining fully hands-on
 - API standardization and modular decomposition: 50% faster transaction
   processing, 40% fewer critical production incidents
 - Built a Jenkins CI/CD pipeline from scratch, now used by the entire LATAM
@@ -92,24 +91,20 @@ WebSockets by default.
 
 ## Stack
 
-**Primary:** C#/.NET, Python
-**Also production-proven:** Java, Go, Node.js/TypeScript, C++
-**APIs:** REST, GraphQL, OpenAPI/Swagger, WebSockets
-**AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB,
-Gemini API, multimodal (vision + text), provider-agnostic LLM integration
-**Data & messaging:** PostgreSQL, SQL Server, MongoDB, RabbitMQ
-**Infra:** Docker, Kubernetes (kind), Terraform (multi-cloud IaC), GitHub
-Actions, Jenkins, AWS (Lambda, RDS, ECS/Fargate), Azure Container Apps
-**Serverless / BaaS:** Firebase (Cloud Functions, Firestore, Auth, Cloud
-Messaging, Hosting)
-**Observability:** Prometheus/Grafana, OpenTelemetry (learning), agentic
-coding workflows (Claude Code)
+- **Primary:** C#/.NET, Python
+- **Also production-proven:** Java, Go, Node.js/TypeScript, C++
+- **APIs:** REST, GraphQL, OpenAPI/Swagger, WebSockets
+- **AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB, Gemini API, multimodal (vision + text), provider-agnostic LLM integration
+- **Data & messaging:** PostgreSQL, SQL Server, MongoDB, RabbitMQ
+- **Infra:** Docker, Kubernetes (kind), Terraform (multi-cloud IaC), GitHub Actions, Jenkins, AWS (Lambda, RDS, ECS/Fargate), Azure Container Apps
+- **Serverless / BaaS:** Firebase (Cloud Functions, Firestore, Auth, Cloud Messaging, Hosting)
+- **Observability:** Prometheus/Grafana, OpenTelemetry (learning), agentic coding workflows (Claude Code)
 
 ## What I Think About
 
 Fiscal regulation and AI is a narrow intersection with very few engineers
-who've operated in both. LLMs fail at fiscal classification out of the box
-— they hallucinate plausible-looking codes, can't express calibrated
+who've operated in both. LLMs fail at fiscal classification out of the box:
+they hallucinate plausible-looking codes, can't express calibrated
 confidence, and leave no audit trail. The interesting engineering problem
 is the layer between the raw model and a regulated production
 environment: retrieval grounding, verification, structured output,
