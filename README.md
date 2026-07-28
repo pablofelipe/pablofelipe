@@ -91,12 +91,12 @@ WebSockets by default.
 ## Stack
 
 - **Primary:** C#/.NET
-- **Also production-proven:** Java, Go, Python, Node.js/TypeScript
+- **Also production-proven:** Java/Spring Boot, Go, Python, Node.js/TypeScript
 - **APIs:** REST, GraphQL, OpenAPI/Swagger, WebSockets
 - **AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB, Gemini API, multimodal (vision + text), provider-agnostic LLM integration
-- **Data & messaging:** PostgreSQL, SQL Server, MongoDB, RabbitMQ
+- **Data & messaging:** PostgreSQL, SQL Server, Oracle, MySQL, MongoDB, RabbitMQ
 - **Infra:** Docker, Kubernetes (kind), Terraform (multi-cloud IaC), GitHub Actions, Jenkins, AWS (Lambda, RDS, ECS/Fargate), Azure Container Apps
-- **Serverless / BaaS:** Firebase (Cloud Functions, Firestore, Auth, Cloud Messaging, Hosting)
+- **Serverless / BaaS:** Firebase (Cloud Functions, Firestore, Storage, Auth, Cloud Messaging, Hosting)
 - **Observability:** Prometheus/Grafana, agentic coding workflows (Claude Code)
 
 ## What I Think About
