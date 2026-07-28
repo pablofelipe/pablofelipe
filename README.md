@@ -3,7 +3,7 @@
 **Principal / Staff Backend Engineer · Financial Systems Architect**
 São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pablofelipe@gmail.com
 
-22+ years building compliance-critical, high-throughput financial and fiscal
+23+ years building compliance-critical, high-throughput financial and fiscal
 systems. Currently Principal Application Software Engineer at Oracle,
 architecting a fiscal middleware platform running in 25 countries across
 LATAM, EMEA, and Asia — 10+ active tax regimes in production, where a classification error
@@ -74,8 +74,11 @@ AWS Lambda behind API Gateway.
 ## Production Context (Oracle)
 
 - Technical lead and architect for a fiscal middleware platform serving 25
-  countries: Brazil (NF-e, NFC-e, SAT), Mexico, Argentina, and 20+
-  additional jurisdictions across EMEA and Asia
+  countries across LATAM, EMEA, and Asia, with 10+ active tax regimes in
+  production
+- Led a full redesign of an 8-year legacy fiscal interface into a modular
+  JavaScript architecture — defined the architecture and implementation
+  strategy end to end, fully hands-on, with production rollout in 3 months
 - API standardization and modular decomposition: 50% faster transaction
   processing, 40% fewer critical production incidents
 - Built a Jenkins CI/CD pipeline from scratch, now used by the entire LATAM
@@ -85,8 +88,8 @@ AWS Lambda behind API Gateway.
 
 ## Stack
 
-**Primary:** C#/.NET, Python
-**Also production-proven:** Java, Go, Node.js/TypeScript, GraphQL
+**Primary:** C#/.NET
+**Also production-proven:** Java, Go, Python, Node.js/TypeScript, GraphQL
 **AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB,
 Claude API, Gemini API
 **Data & messaging:** PostgreSQL, SQL Server, MongoDB, RabbitMQ
