@@ -91,7 +91,7 @@ WebSockets by default.
 ## Stack
 
 - **Primary:** C#/.NET
-- **Also production-proven:** Java/Spring Boot, Go, Python, Node.js/TypeScript
+- **Also production-proven:** Java/Spring Boot, Go, Python, Node.js/TypeScript, C++
 - **APIs:** REST, GraphQL, OpenAPI/Swagger, WebSockets
 - **AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB, Gemini API, multimodal (vision + text), provider-agnostic LLM integration
 - **Data & messaging:** PostgreSQL, SQL Server, Oracle, MySQL, MongoDB, RabbitMQ
