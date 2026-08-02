@@ -5,9 +5,9 @@
 São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pablofelipe@gmail.com
 
 <p align="left">
-    <img src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,python,go,cpp,js,ts,nodejs" height="32">
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,python,go,cpp,js,ts,nodejs,react,fastapi,graphql,maven" height="32">
     <br>
-    <img src="https://skillicons.dev/icons?i=vscode,linux,docker,kubernetes,terraform,jenkins,githubactions,github,aws,azure,firebase,prometheus,grafana" height="32">
+    <img src="https://skillicons.dev/icons?i=vscode,linux,docker,kubernetes,terraform,jenkins,githubactions,github,aws,azure,firebase,prometheus,grafana,git,nginx,postman" height="32">
     <br>
     <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,rabbitmq" height="32">
 </p>
@@ -100,13 +100,15 @@ WebSockets by default.
 ## Stack
 
 - **Primary:** C#/.NET
-- **Also production-proven:** Java/Spring Boot, Go, Python, JavaScript/TypeScript/Node.js, C++
+- **Also production-proven:** Java/Spring Boot (Maven), Go, Python (FastAPI), JavaScript/TypeScript/Node.js, C++
+- **Frontend:** React 19, TypeScript
 - **APIs:** REST, GraphQL, OpenAPI/Swagger, WebSockets
 - **AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB, Gemini API, multimodal (vision + text), provider-agnostic LLM integration
 - **AI-assisted development:** Claude Code, Cursor, Codex — daily driver, not novelty
 - **Data & messaging:** PostgreSQL, SQL Server, Oracle, MySQL, SQLite, MongoDB, RabbitMQ
-- **Infra:** Linux, Docker, Kubernetes (kind), Terraform (multi-cloud IaC), GitHub Actions, Jenkins, AWS (Lambda, RDS, ECS/Fargate), Azure Container Apps
+- **Infra:** Linux, Docker, Kubernetes (kind), Terraform (multi-cloud IaC), GitHub Actions, Jenkins, Fly.io, AWS (Lambda, RDS, ECS/Fargate), Azure Container Apps
 - **Serverless / BaaS:** Firebase (Cloud Functions, Firestore, Storage, Auth, Cloud Messaging, Hosting)
+- **Tooling:** Git, Postman, VS Code
 - **Observability:** Prometheus/Grafana
 
 ## What I Think About
