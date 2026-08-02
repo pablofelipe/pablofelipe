@@ -4,6 +4,14 @@
 
 São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pablofelipe@gmail.com
 
+<p align="left">
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,python,go,cpp,js,ts,nodejs" height="32">
+    <br>
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,azure,githubactions,firebase,prometheus,grafana" height="32">
+    <br>
+    <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,rabbitmq" height="32">
+</p>
+
 23+ years building compliance-critical, high-throughput financial and fiscal
 systems. Currently Principal Application Software Engineer at Oracle,
 architecting a fiscal middleware platform running in 25 countries across
