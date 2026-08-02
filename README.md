@@ -5,9 +5,9 @@
 São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pablofelipe@gmail.com
 
 <p align="left">
-    <img src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,python,go,cpp,js,ts,nodejs,react,fastapi,graphql,maven" height="32">
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,python,fastapi,go,java,spring,maven,js,ts,nodejs,react,cpp,graphql" height="32">
     <br>
-    <img src="https://skillicons.dev/icons?i=vscode,linux,docker,kubernetes,terraform,jenkins,githubactions,github,aws,azure,firebase,prometheus,grafana,git,nginx,postman&perline=16" height="32">
+    <img src="https://skillicons.dev/icons?i=linux,git,github,docker,kubernetes,terraform,jenkins,githubactions,aws,azure,firebase,nginx,prometheus,grafana,vscode,postman&perline=16" height="32">
     <br>
     <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,rabbitmq" height="32">
 </p>
@@ -100,7 +100,7 @@ WebSockets by default.
 ## Stack
 
 - **Primary:** C#/.NET
-- **Also production-proven:** Java/Spring Boot (Maven), Go, Python (FastAPI), JavaScript/TypeScript/Node.js, C++
+- **Also production-proven:** Python (FastAPI), Go, Java/Spring Boot (Maven), JavaScript/TypeScript/Node.js, C++
 - **Frontend:** React 19, TypeScript
 - **APIs:** REST, GraphQL, OpenAPI/Swagger, WebSockets
 - **AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB, Gemini API, multimodal (vision + text), provider-agnostic LLM integration
