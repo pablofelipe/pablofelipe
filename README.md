@@ -7,7 +7,7 @@ São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pa
 <p align="left">
     <img src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,python,go,cpp,js,ts,nodejs,react,fastapi,graphql,maven" height="32">
     <br>
-    <img src="https://skillicons.dev/icons?i=vscode,linux,docker,kubernetes,terraform,jenkins,githubactions,github,aws,azure,firebase,prometheus,grafana,git,nginx,postman" height="32">
+    <img src="https://skillicons.dev/icons?i=vscode,linux,docker,kubernetes,terraform,jenkins,githubactions,github,aws,azure,firebase,prometheus,grafana,git,nginx,postman&perline=16" height="32">
     <br>
     <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,rabbitmq" height="32">
 </p>
