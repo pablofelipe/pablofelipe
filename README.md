@@ -7,7 +7,7 @@ São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pa
 <p align="left">
     <img src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,python,go,cpp,js,ts,nodejs" height="32">
     <br>
-    <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform,jenkins,githubactions,github,aws,azure,firebase,prometheus,grafana" height="32">
+    <img src="https://skillicons.dev/icons?i=vscode,linux,docker,kubernetes,terraform,jenkins,githubactions,github,aws,azure,firebase,prometheus,grafana" height="32">
     <br>
     <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,rabbitmq" height="32">
 </p>
@@ -100,7 +100,7 @@ WebSockets by default.
 ## Stack
 
 - **Primary:** C#/.NET
-- **Also production-proven:** Java/Spring Boot, Go, Python, Node.js/TypeScript, C++
+- **Also production-proven:** Java/Spring Boot, Go, Python, JavaScript/TypeScript/Node.js, C++
 - **APIs:** REST, GraphQL, OpenAPI/Swagger, WebSockets
 - **AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB, Gemini API, multimodal (vision + text), provider-agnostic LLM integration
 - **AI-assisted development:** Claude Code, Cursor, Codex — daily driver, not novelty
