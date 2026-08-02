@@ -7,9 +7,9 @@ São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pa
 <p align="left">
     <img src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,python,go,cpp,js,ts,nodejs" height="32">
     <br>
-    <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,azure,githubactions,firebase,prometheus,grafana" height="32">
+    <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,terraform,jenkins,githubactions,github,aws,azure,firebase,prometheus,grafana" height="32">
     <br>
-    <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,rabbitmq" height="32">
+    <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,rabbitmq" height="32">
 </p>
 
 23+ years building compliance-critical, high-throughput financial and fiscal
@@ -103,10 +103,11 @@ WebSockets by default.
 - **Also production-proven:** Java/Spring Boot, Go, Python, Node.js/TypeScript, C++
 - **APIs:** REST, GraphQL, OpenAPI/Swagger, WebSockets
 - **AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB, Gemini API, multimodal (vision + text), provider-agnostic LLM integration
-- **Data & messaging:** PostgreSQL, SQL Server, Oracle, MySQL, MongoDB, RabbitMQ
-- **Infra:** Docker, Kubernetes (kind), Terraform (multi-cloud IaC), GitHub Actions, Jenkins, AWS (Lambda, RDS, ECS/Fargate), Azure Container Apps
+- **AI-assisted development:** Claude Code, Cursor, Codex — daily driver, not novelty
+- **Data & messaging:** PostgreSQL, SQL Server, Oracle, MySQL, SQLite, MongoDB, RabbitMQ
+- **Infra:** Linux, Docker, Kubernetes (kind), Terraform (multi-cloud IaC), GitHub Actions, Jenkins, AWS (Lambda, RDS, ECS/Fargate), Azure Container Apps
 - **Serverless / BaaS:** Firebase (Cloud Functions, Firestore, Storage, Auth, Cloud Messaging, Hosting)
-- **Observability:** Prometheus/Grafana, agentic coding workflows (Claude Code)
+- **Observability:** Prometheus/Grafana
 
 ## What I Think About
 
