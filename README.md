@@ -63,6 +63,12 @@ service state, a race condition closed and verified under concurrent
 load. That log is the part of this repo worth reading first; current
 service status lives there too.
 
+Distributed tracing runs on OpenTelemetry and Jaeger across all 8
+services; a single login produces a 6-service, 13-span trace. The
+RabbitMQ-over-Kafka decision (ADR-0007) is now backed by a measured
+benchmark instead of an argued trade-off: ~1,199 msg/s vs. ~84 msg/s
+under the same publish-confirm pattern the system uses in production.
+
 ## SmartCondo
 
 **[github.com/pablofelipe/SmartCondo](https://github.com/pablofelipe/SmartCondo)**
@@ -81,6 +87,12 @@ construction. Container-first and cloud-agnostic: the same Docker image
 deploys unmodified to Azure Container Apps or AWS ECS/Fargate through two
 independent Terraform modules, with real-time notifications over native
 WebSockets by default.
+
+A tenant-isolation audit found the guarantee had never been verified by
+test, only by code review; closed with a concurrency test against real
+PostgreSQL. A GraphQL N+1 diagnosed via EF Core log correlation (8-15x
+latency impact) was fixed and reverified with measured query counts
+(202 → 2).
 
 ## Production Context (Oracle)
 
