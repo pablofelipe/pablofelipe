@@ -1,6 +1,6 @@
 # Pablo Felipe
 
-**Principal/Staff Software Engineer & Architect | Financial Systems, Distributed Systems, AI-Integrated Platforms | .NET, Python, Go**
+**Principal/Staff Software Engineer & Architect | Financial Systems, Distributed Systems, AI-Integrated Platforms | .NET, Java, Python**
 
 São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pablofelipe@gmail.com
 
