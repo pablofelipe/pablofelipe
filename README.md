@@ -40,8 +40,13 @@ second LLM call), implemented and unit-tested, is designed to check
 structural validity and route low-confidence output to escalation.
 
 This is the project to read if the question is whether I treat AI as an
-engineering discipline or a demo. Current status and the full decision
-log are in the repo.
+engineering discipline or a demo. An OWASP Top 10 for LLM Applications
+audit found and fixed two real unauthenticated crash bugs, confirmed
+prompt-injection resistance, and shipped a permanent regression suite.
+GenAI-semantic-convention OTel tracing complements the existing
+`/metrics` endpoint, off by default and never capturing prompt or
+completion content. Current status and the full decision log are in the
+repo.
 
 ## EasyDora
 
@@ -104,15 +109,16 @@ latency impact) was fixed and reverified with measured query counts
   strategy end to end, fully hands-on, with production rollout in 3 months
 - API standardization and modular decomposition: 50% faster transaction
   processing, 40% fewer critical production incidents
-- Built a Jenkins CI/CD pipeline from scratch, now used by the entire LATAM
-  fiscal engineering team
+- Built a Jenkins CI/CD pipeline from scratch, now used across the LATAM
+  fiscal team
 - Technical influence across distributed, multi-timezone teams without
   direct authority
 
 ## Stack
 
 - **Primary:** C#/.NET
-- **Also production-proven:** Python (FastAPI), Go, Java/Spring Boot (Maven), JavaScript/TypeScript/Node.js, C++
+- **Also production-proven:** Python (FastAPI), Java/Spring Boot (Maven), JavaScript/TypeScript/Node.js, C++
+- **Used via AI-assisted development:** Go (Gin, PostgreSQL services in EasyDora)
 - **Frontend:** React 19, TypeScript
 - **APIs:** REST, GraphQL, OpenAPI/Swagger, WebSockets
 - **AI/ML:** RAG pipelines, eval-first evaluation harnesses, ChromaDB, Gemini API, multimodal (vision + text), provider-agnostic LLM integration
