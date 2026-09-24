@@ -12,7 +12,7 @@ São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pa
     <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,rabbitmq" height="32">
 </p>
 
-23+ years building compliance-critical, high-throughput financial and fiscal
+20+ years building compliance-critical, high-throughput financial and fiscal
 systems. Currently Principal Application Software Engineer at Oracle,
 architecting a fiscal middleware platform running in 25 countries across
 LATAM, EMEA, and Asia, with 10+ active tax regimes in production, where an
