@@ -2,12 +2,12 @@
 
 **Principal / Staff Software Engineer & Software Architect | Backend Platforms for Financial & Mission-Critical Systems | Distributed Systems & AI-Integrated Applications | C#/.NET · Java · Python**
 
-São Paulo, Brazil · [Portfolio](https://pablofelipe.github.io/) · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pablofelipe@gmail.com
+Brazil · UTC-3 · [Portfolio](https://pablofelipe.github.io/) · [LinkedIn](https://www.linkedin.com/in/pablofelipe/) · pablofelipe@gmail.com
 
 <p align="left">
-    <img src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,maven,python,fastapi,ts,js,nodejs,react,go,cpp,graphql" height="32">
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,maven,python,fastapi,ts,js,react,cpp,graphql" height="32">
     <br>
-    <img src="https://skillicons.dev/icons?i=linux,git,github,docker,kubernetes,terraform,jenkins,githubactions,aws,azure,firebase,nginx,prometheus,grafana,vscode,postman&perline=16" height="32">
+    <img src="https://skillicons.dev/icons?i=linux,git,github,docker,terraform,jenkins,githubactions,firebase,nginx,prometheus,grafana,vscode,postman&perline=16" height="32">
     <br>
     <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,rabbitmq" height="32">
 </p>
@@ -24,8 +24,7 @@ Oracle's platform is a modular monolith, one installation per site. Beyond that 
 I build in the direction I want to keep growing into — distributed, event-driven,
 cloud-based, and AI-integrated systems — as personal, open-source projects, with the
 same discipline I apply at work: ADRs for every decision, measured deltas instead of
-arguments, and audits that stay in the repo even when they found something. The four
-repositories below are those projects, in the order I'd read them.
+arguments, and audits that stay in the repo even when they found something. The six public repositories below are those projects, in the order I'd read them.
 
 ## tax-research-copilot
 
@@ -93,7 +92,7 @@ producer/consumer drift is caught automatically instead of in production; CI run
 three phases (unit → real-infrastructure integration → cross-service end-to-end against
 actual running processes).
 
-The 40-ADR decision log documents real bugs found by running the tests, not by
+The 42-ADR decision log documents real bugs found by running the tests, not by
 inspection: schema-authority conflicts, healthchecks that lied about service state, a
 race condition closed and verified under concurrent load. That log is the part of this
 repo worth reading first; current service status lives there too.
@@ -149,7 +148,7 @@ and GraphQL surfaces returned no findings above medium risk.
   from scratch, in production 8+ years; the resulting multi-country core cut new-country
   rollout time from **6 months to 3**
 - Set design-review and code-review standards for the LATAM team, with no hierarchical
-  authority over it, and mentored senior engineers — contributing to a **40% reduction in
+  authority over it, and mentored engineers and interns on that team — contributing to a **40% reduction in
   critical production incidents**. Also work ad hoc with two EMEA teams on cross-country
   architecture
 - Proposed a RESTful API integration standard (XML/JSON) connecting POS to partner
@@ -159,8 +158,8 @@ and GraphQL surfaces returned no findings above medium risk.
 - Led the end-to-end redesign of an 8-year legacy fiscal interface into a modular
   JavaScript architecture on Simphony's extensibility platform, driven by Brazil's tax
   reform and the SAT/MFE decommissioning — architecture, standards, and implementation
-  strategy end to end, fully hands-on, with full production rollout in **3 months**. It
-  now runs natively on Windows, Linux, and Android
+  strategy end to end, fully hands-on, with full production rollout in **3 months**. It is
+  active in Brazil and runs natively on Windows, Linux, and Android
 - On my own initiative, with no assigned activity for it, proved that country-specific
   .NET logic can run on Android against a JavaScript core via an embedded V8 engine,
   removing the need to rewrite 10+ remaining connectors and cutting the Android rollout
@@ -175,8 +174,8 @@ and GraphQL surfaces returned no findings above medium risk.
 ## Stack
 
 - **Primary:** C#/.NET
-- **Also professionally:** Java (Spring Boot, Maven), JavaScript/TypeScript, C++
-- **In my own open-source projects:** Python (FastAPI), Go (Gin), TypeScript
+- **Also professionally:** Java, JavaScript/TypeScript, C++
+- **In my own open-source projects:** Python (FastAPI), Java (Spring Boot, Maven), Go (Gin), TypeScript
 - **Frontend:** React 19, TypeScript, SvelteKit
 - **APIs:** REST, GraphQL, OpenAPI/Swagger, WebSockets
 - **Architecture:** modular monolith, hexagonal, DDD, event-driven, Outbox, Saga, ADR/RFC
@@ -184,7 +183,7 @@ and GraphQL surfaces returned no findings above medium risk.
   deterministic guardrails, agent orchestration (LangGraph), human-in-the-loop design,
   MCP, ChromaDB, pgvector, Ollama, Gemini API, multimodal (vision + text),
   provider-agnostic LLM integration
-- **AI-assisted development:** Claude Code, Cursor, Codex — daily driver, not novelty
+- **AI-assisted development:** Claude Code, Codex, Cursor — daily driver, not novelty
 - **Data & messaging:** PostgreSQL, SQL Server, Oracle, MySQL, SQLite, MongoDB, RabbitMQ
 - **Infra:** Linux, Docker, Kubernetes (kind, local), Terraform (multi-cloud IaC), GitHub
   Actions, Jenkins, Fly.io, AWS (Lambda, RDS, ECS/Fargate), Azure Container Apps, OCI
